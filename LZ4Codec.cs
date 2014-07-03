@@ -199,7 +199,7 @@ namespace LZ4PCL
         /// <param name="highCompression">If <c>true</c>, use a higher-compression but slower codec variant.</param>
         /// <returns>Number of bytes written to <paramref name="output"/> buffer.</returns>
         public static int Encode(byte[] input, int inputOffset, int inputLength, byte[] output, int outputOffset, int outputLength,
-            bool highCompression)
+            bool highCompression = false)
         {
             switch (_platform) {
                 case 32:
