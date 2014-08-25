@@ -35,8 +35,8 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <DocumentationFile>bin\Release\LZ4PCL.xml</DocumentationFile>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'ReleaseUnsafe|AnyCPU'">
-    <OutputPath>bin\ReleaseUnsafe\</OutputPath>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseWithUnsafe|AnyCPU' ">
+    <OutputPath>bin\ReleaseWithUnsafe\</OutputPath>
     <Optimize>true</Optimize>
     <WarningLevel>0</WarningLevel>
     <DebugType>pdbonly</DebugType>
@@ -46,7 +46,7 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DefineConstants>INCLUDE_UNSAFE</DefineConstants>
-    <DocumentationFile>bin\ReleaseUnsafe\LZ4PCL.xml</DocumentationFile>
+    <DocumentationFile>bin\ReleaseWithUnsafe\LZ4PCL.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
