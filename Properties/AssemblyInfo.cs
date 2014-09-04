@@ -6,9 +6,9 @@ using System.Resources;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("LZ4PCL")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("LZ4 compression portable class library")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Matthew Ducker")]
 [assembly: AssemblyProduct("LZ4PCL")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]

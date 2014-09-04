@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>LZ4PCL</id>
+        <version>1.0.0</version>
+        <title>LZ4 PCL</title>
+        <authors>zenith</authors>
+        <owners>zenith</owners>
+        <licenseUrl>https://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
+        <projectUrl>https://github.com/zenith-nz/LZ4PCL</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>A pure C# portable class library (PCL) implementation of high performance LZ4 compression algorithm, with streaming interface (System.IO.Stream derived). 
+It includes a High Compression (HC) codec variant, which is slower than the standard LZ4 codec, but provides a better compression ratio.
+
+This library targets .NET 4.0, Windows Store, Windows Phone 8, and supports use in Xamarin.Android and Xamarin.iOS, implementations of Mono for mobile devices.
+
+When methods are called, it automatically chooses the 32 or 64-bit word size implementations, whichever is fastest for the operation.
+
+This library is optimised for high performance, enabled through use of 'unsafe' code blocks: single-thread speeds of &gt;500 MB/s compression (and faster still decompression) are available with only modest hardware.</description>
+        <summary>High-performance LZ4 compression portable class library</summary>
+        <copyright>2014 Matthew Ducker</copyright>
+        <tags>lz4 compression stream pcl performance</tags>
+    </metadata>
+    <files>
+        <file src="lib\portable-net4+netcore45+wpa81+MonoAndroid1+MonoTouch1\LZ4PCL.dll" target="lib\portable-net4+netcore45+wpa81+MonoAndroid1+MonoTouch1\LZ4PCL.dll" />
+        <file src="lib\portable-net4+netcore45+wpa81+MonoAndroid1+MonoTouch1\LZ4PCL.pdb" target="lib\portable-net4+netcore45+wpa81+MonoAndroid1+MonoTouch1\LZ4PCL.pdb" />
+        <file src="lib\portable-net4+netcore45+wpa81+MonoAndroid1+MonoTouch1\LZ4PCL.xml" target="lib\portable-net4+netcore45+wpa81+MonoAndroid1+MonoTouch1\LZ4PCL.xml" />
+    </files>
+</package>
